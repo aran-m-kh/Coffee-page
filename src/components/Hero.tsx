@@ -1,5 +1,5 @@
 import Cup from "../assets/coffee2.png"
-function Home() {
+function Hero() {
   return (
     <div className='sm:h-[600px] min-h-[550px] h-screen bg-brandDark flex items-center justify-between'>
       <div className='container sm:pb-0 pb-8'>
@@ -21,4 +21,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Hero

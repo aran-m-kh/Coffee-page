@@ -1,8 +1,10 @@
 import { useEffect } from 'react'
 import AOS from "aos"
 import "aos/dist/aos.css"
-import Navbar from './components/Navbar'
-import Home from './components/Home'
+import Home from './pages/Home'
+import Store from './pages/Store'
+import RootLayout from './Layout/RootLayout'
+import { Routes, Route } from 'react-router-dom'
 
 
 function App() {
@@ -17,10 +19,12 @@ function App() {
   })
   
   return (
-    <div className='overflow-x-hidden'>
-      <Navbar/>
-      <Home/>
-    </div>
+    <RootLayout>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path='/Store' element={<Store/>}/>
+        </Routes>
+    </RootLayout>
   )
 }
 

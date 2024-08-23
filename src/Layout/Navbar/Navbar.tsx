@@ -1,5 +1,6 @@
-import Logo from "../assets/website/coffee_logo.png"
-import { NavbarData } from '../Data/data'
+import { Link } from "react-router-dom"
+import Logo from "../../assets/website/coffee_logo.png"
+import { NavbarData } from '../../Data/data'
 import { GiCoffeeCup } from 'react-icons/gi'
 function Navbar() {
   return (
@@ -23,14 +24,15 @@ function Navbar() {
                   <ul className='text-xl sm:flex gap-8 hidden'>
                     {NavbarData.map((item) => {
                       return <li className='text-white/70 hover:text-white duration-200' key={item.id}>
-                        <a href={item.link}>{item.title}</a>
+                        
+                        <Link to={item.link}>{item.title}</Link>
                       </li>
                     })}
                   </ul>
-                  <button className='text-white rounded-full px-4 py-2 flex items-center gap-2 bg-primary hover:scale-105 hover:bg-secondary duration-200'>
-                    Order
+                  <Link to={"/Store"} className='text-white rounded-full px-4 py-2 flex items-center gap-2 bg-primary hover:scale-105 hover:bg-secondary duration-200'>
+                    <>Order</>
                     <GiCoffeeCup/>
-                    </button>
+                    </Link>
                 </div>
         </div>
       </div>
