@@ -10,7 +10,7 @@ function Navbar() {
             
             {/* logo section */}
                 
-                <div>
+                <div data-aos="fade-down" data-aos-delay="350" >
                     <a className='flex justify-center items-center gap-2 text-white text-3xl font-cursive'  href="#">
                         <img className='w-16' src={Logo} alt="logo" />
                         Coffee Cafe
@@ -19,7 +19,7 @@ function Navbar() {
             
             {/* Links section */}
                 
-                <div className='flex gap-7 items-center justify-center'>
+                <div data-aos="fade-down" data-aos-delay="350" className='flex gap-7 items-center justify-center'>
                   
                   <ul className='text-xl sm:flex gap-8 hidden'>
                     {NavbarData.map((item) => {

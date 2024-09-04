@@ -3,6 +3,8 @@ import Aos from "aos"
 
 import Hero from "../components/Hero"
 import Services from "../components/Services"
+import Banner from "../components/Banner"
+import AppStore from "../components/AppStore"
 function Home() {
 
 
@@ -20,6 +22,8 @@ function Home() {
   <>
     <Hero/>
     <Services/>
+    <Banner/>
+    <AppStore/>
   </>
   )
 }
