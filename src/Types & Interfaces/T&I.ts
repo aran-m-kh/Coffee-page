@@ -11,3 +11,17 @@ export interface IServiceData {
     description : string
     aos_delay : string
 }
+
+export interface ItestimonialsData {
+    id : number,
+    name : string,
+    text : string,
+    img : string 
+    
+}
+
+export interface IfooterData {
+    id : number
+    title : string
+    link : string
+}

@@ -12,8 +12,8 @@ function Hero() {
         {/* img section */}
             <div data-aos="zoom-in" data-aos-delay="300" className='flex min-h-[450px] items-center justify-center mx-auto order-1 sm:order-2 relative'>
                 <img className='spin w-[300px] sm:w-[450px]' src={Cup} alt="Coffe_cup" />
-                <button className='absolute top-10 -left-20  bg-gradient-to-r from-primary to-secondary text-white p-3 mt-4 rounded-xl  border-primary hover:scale-105 duration-200'>Hey coder</button>
-                <button className='absolute bottom-10 -right-20  bg-gradient-to-r from-primary to-secondary text-white p-3 mt-4 rounded-xl  border-primary hover:scale-105 duration-200'>Best Coffee</button>
+                <button className='absolute top-10 left-2 sm:-left-20  bg-gradient-to-r from-primary to-secondary text-white p-3 mt-4 rounded-xl  border-primary hover:scale-105 duration-200'>Hey coder</button>
+                <button className='absolute bottom-10 right-2 sm:-right-20  bg-gradient-to-r from-primary to-secondary text-white p-3 mt-4 rounded-xl  border-primary hover:scale-105 duration-200'>Best Coffee</button>
             </div>
         </div> 
       </div>

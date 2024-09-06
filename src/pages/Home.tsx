@@ -5,6 +5,7 @@ import Hero from "../components/Hero"
 import Services from "../components/Services"
 import Banner from "../components/Banner"
 import AppStore from "../components/AppStore"
+import Testimonials from "../components/Testimonials"
 function Home() {
 
 
@@ -24,6 +25,7 @@ function Home() {
     <Services/>
     <Banner/>
     <AppStore/>
+    <Testimonials/>
   </>
   )
 }
