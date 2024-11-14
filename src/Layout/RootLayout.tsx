@@ -2,7 +2,11 @@ import React from 'react'
 import Navbar from './Navbar/Navbar'
 import Footer from './Footer/Footer'
 
-function RootLayout({children} : React.ReactNode) {
+interface Props {
+  children : React.ReactNode
+}
+
+function RootLayout({children} : Props) {
   return (
     <>
       <Navbar/>

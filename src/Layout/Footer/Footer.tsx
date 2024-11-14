@@ -25,7 +25,7 @@ function Footer() {
               Crafted Coffee, Cozy Vibes, Unforgettable Moments – Your Perfect Espresso Escape
             </p>
             <a
-              className='bg-secondary text-white px-3 py-2 mt-5 -ml-2 inline-block rounded-full border border-primary hover:scale-105 duration-200'
+              className='bg-secondary text-white px-3 py-2 mt-10 -ml-2 min-w-52 inline-block rounded-full border border-primary hover:scale-105 duration-200'
               href="https://www.youtube.com" target="_blank">visit our youtube channel</a>
           </div>
           

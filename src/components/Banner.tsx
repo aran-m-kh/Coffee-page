@@ -30,7 +30,7 @@ function Banner() {
                     </div>
 
                     {/*description section*/}
-                    <div className="flex justify-start items-center">
+                    <div className="flex justify-start items-center pb-4">
                         <div>
                             <h1 data-aos = "fade-up" data-aos-delay = "300" className="font-cursive font-bold text-3xl sm:text-4xl text-black p-2">Premium Blen Coffee</h1>
                             <p data-aos = "fade-up" data-aos-delay = "300" className="text-black/60 text-sm tracking-wide leading-5 p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio</p>

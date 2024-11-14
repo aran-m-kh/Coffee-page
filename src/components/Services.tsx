@@ -12,7 +12,7 @@ function Services() {
           </div>
 
           {/* Services section */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-5 lg:gap-5 place-items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-5 lg:gap-5 space-y-5 place-items-center">
 
               {servicesData.map((item) => {
                 return (
