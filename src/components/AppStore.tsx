@@ -1,6 +1,6 @@
-import bgBeens from "../assets/website/coffee-beans-bg.png"
-import googleStore from "../assets/website/play_store.png"
-import appleStore from "../assets/website/app_store.png"
+import bgBeens from "/images/website/coffee-beans-bg.png"
+import googleStore from "/images/website/play_store.png"
+import appleStore from "/images/website/app_store.png"
 
 const appStore_bg = {
     backgroundImage : `url(${bgBeens})`,

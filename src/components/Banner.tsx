@@ -2,8 +2,8 @@ import { GrSecure } from "react-icons/gr"
 import { IoFastFood } from "react-icons/io5"
 import { GiFoodTruck } from "react-icons/gi"
 
-import whiteCup from "../assets/coffee-white.png"
-import bgTexture from "../assets/website/coffee-texture.jpg"
+import whiteCup from "/images/coffee-white.png"
+import bgTexture from "/images/website/coffee-texture.jpg"
 
 const banner_bg = {
     backgroundImage : `url(${bgTexture})`,

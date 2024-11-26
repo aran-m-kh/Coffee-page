@@ -2,12 +2,12 @@ import { InavbarData } from "../Types & Interfaces/T&I";
 import { IServiceData } from "../Types & Interfaces/T&I";
 import { ItestimonialsData } from "../Types & Interfaces/T&I";
 
-import cup from "../assets/coffee2.png"
+import cup from "/images/coffee2.png"
 
-import img1 from "../assets/profile pic/1.png"
-import img2 from "../assets/profile pic/2.png"
-import img3 from "../assets/profile pic/3.png"
-import img4 from "../assets/profile pic/4.png"
+import img1 from "/images/profile pic/1.png"
+import img2 from "/images/profile pic/2.png"
+import img3 from "/images/profile pic/3.png"
+import img4 from "/images/profile pic/4.png"
 
 
 

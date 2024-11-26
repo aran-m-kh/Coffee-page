@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Logo from "../../assets/website/coffee_logo.png"
+import Logo from "/images/website/coffee_logo.png"
 import { NavbarData } from '../../Data/data'
 import { GiCoffeeCup } from 'react-icons/gi'
 function Navbar() {

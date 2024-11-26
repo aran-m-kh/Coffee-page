@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import bgFooter from "../../assets/website/coffee-footer.jpg"
+import bgFooter from "/images/website/coffee-footer.jpg"
 import { footerLinks } from "../../Data/data"
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa"
 
